@@ -1,0 +1,9 @@
+Introduction to Java Programming
+
+Java is a high-level, object-oriented programming language originally developed by Sun Microsystems. It follows the "write once, run anywhere" principle, meaning compiled Java code can run on any platform that supports the Java Virtual Machine, or JVM.
+
+Java is strongly typed, which means every variable must have a declared type. It supports core object-oriented concepts such as classes, objects, inheritance, polymorphism, encapsulation, and abstraction. Java also provides automatic memory management through garbage collection, removing the need for manual memory deallocation.
+
+Common Java data types include int, double, boolean, char, and String. Java collections such as ArrayList, HashMap, and HashSet are widely used to store and organize data efficiently. Understanding these built-in structures is essential before implementing custom data structures like a Trie or an Inverted Index.
+
+Java is used to build desktop applications with JavaFX or Swing, web applications, Android apps, and large enterprise systems. Its combination of performance, portability, and a mature ecosystem makes it a popular choice for both beginners learning data structures and algorithms and experienced engineers building production software.

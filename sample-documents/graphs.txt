@@ -1,0 +1,9 @@
+Graphs: Modeling Connections
+
+A graph is a data structure made up of a set of nodes, called vertices, and a set of connections between them, called edges. Unlike trees, graphs do not require a single root and can contain cycles, where a path leads back to a node already visited.
+
+Graphs can be directed, where edges have a direction from one vertex to another, or undirected, where edges simply connect two vertices with no direction. Graphs can also be weighted, where each edge carries a cost or distance, or unweighted, where every edge is treated equally.
+
+Graphs are commonly represented in two ways: an adjacency matrix, which uses a two-dimensional array to record whether an edge exists between every pair of vertices, and an adjacency list, which stores, for each vertex, a list of the vertices it connects to. An adjacency list is generally more memory-efficient for sparse graphs with relatively few edges.
+
+Two fundamental graph traversal algorithms are breadth-first search, which explores neighbors level by level using a queue, and depth-first search, which explores as far as possible along one path before backtracking, typically using a stack or recursion. Graphs model real-world systems such as social networks, road maps, computer networks, and dependency chains between tasks.

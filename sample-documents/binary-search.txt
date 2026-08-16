@@ -1,0 +1,9 @@
+Binary Search Algorithm
+
+Binary search is an efficient algorithm for finding a target value within a sorted collection. Unlike linear search, binary search does not check every element. Instead, it repeatedly divides the search range in half, comparing the target value with the middle element at each step.
+
+The algorithm works as follows: compare the target with the middle element. If they are equal, the search is complete. If the target is smaller than the middle element, the search continues in the left half. If the target is larger, the search continues in the right half. This process repeats, cutting the remaining search space roughly in half each time, until the target is found or the search range becomes empty.
+
+Because binary search eliminates half of the remaining elements with every comparison, its time complexity is O(log n), which is significantly faster than linear search's O(n) for large collections. The main requirement is that the data must already be sorted before binary search can be applied; if the data is unsorted, it must first be sorted, which itself takes additional time.
+
+Binary search is widely used in searching sorted arrays, dictionary lookups, and as a building block inside more advanced algorithms and data structures such as balanced binary search trees.

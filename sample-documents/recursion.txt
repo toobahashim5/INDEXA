@@ -1,0 +1,9 @@
+Recursion in Algorithms
+
+Recursion is a technique where a function solves a problem by calling itself with a smaller version of the same problem. Every recursive function needs two essential parts: a base case, which stops the recursion, and a recursive case, which breaks the problem down and calls the function again with a simpler input.
+
+A classic example of recursion is calculating a factorial. The factorial of a number n is n multiplied by the factorial of n minus 1, with the base case being that the factorial of 0 is 1. Each recursive call waits for the result of the next call before it can complete, building up what is known as the call stack.
+
+Recursion is closely related to several data structures and algorithms covered elsewhere. Depth-first search on trees and graphs is naturally recursive, since exploring a node's children often means recursively exploring each child's own children. Many sorting algorithms, such as merge sort and quick sort, also rely on recursion to repeatedly divide a collection into smaller pieces.
+
+While recursion can make code shorter and easier to reason about, it comes with overhead: each recursive call uses additional memory on the call stack. Without a proper base case, recursion can lead to a stack overflow error. Understanding when to use recursion versus an iterative loop is an important skill in algorithm design.

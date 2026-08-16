@@ -1,0 +1,11 @@
+Sorting Algorithms Overview
+
+Sorting is the process of arranging elements in a collection into a particular order, typically ascending or descending. Sorting is a fundamental operation in computer science because many other algorithms, including binary search, depend on data already being sorted.
+
+Bubble sort is one of the simplest sorting algorithms. It repeatedly steps through the collection, compares adjacent elements, and swaps them if they are in the wrong order. This process repeats until no more swaps are needed. Bubble sort has a time complexity of O(n squared) in the average and worst case, making it inefficient for large datasets, but easy to understand and implement.
+
+Selection sort works by repeatedly finding the minimum element from the unsorted portion of the collection and moving it to the beginning. It divides the collection into a sorted portion and an unsorted portion, growing the sorted portion by one element each pass. Selection sort also runs in O(n squared) time.
+
+Insertion sort builds the final sorted collection one element at a time. It takes each new element and inserts it into its correct position among the already-sorted elements before it, similar to how a person sorts playing cards in their hand. Insertion sort performs well on small or nearly-sorted collections, running close to O(n) in the best case, though O(n squared) in the worst case.
+
+More advanced algorithms like merge sort and quick sort achieve O(n log n) performance by dividing the collection into smaller pieces, sorting them independently, and combining the results.

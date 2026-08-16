@@ -1,0 +1,9 @@
+Stacks: Last In, First Out
+
+A stack is a linear data structure that follows the Last In, First Out principle, often abbreviated as LIFO. The most recently added element is always the first one removed. Think of a stack of plates: you add a new plate to the top, and you also remove from the top.
+
+The two primary operations on a stack are push, which adds an element to the top, and pop, which removes and returns the top element. A third common operation, peek, lets you view the top element without removing it. All three of these operations run in constant time, O(1), when a stack is implemented using an array or a linked list.
+
+Stacks are used throughout computer science. They power function call management, where each function call is pushed onto a call stack and popped when it returns. Stacks are also used to check balanced parentheses in an expression, implement undo functionality in applications, evaluate postfix and prefix expressions, and perform depth-first search traversal on trees and graphs.
+
+In Java, a stack can be implemented using an array-backed structure or java.util.ArrayDeque, or built manually using a linked list where the head represents the top of the stack.

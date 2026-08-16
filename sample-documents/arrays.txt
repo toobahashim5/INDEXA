@@ -1,0 +1,9 @@
+Understanding Arrays in Data Structures
+
+An array is one of the simplest and most fundamental data structures. It stores a fixed-size sequence of elements of the same type in contiguous memory locations. Because array elements sit next to each other in memory, accessing any element by its index takes constant time, O(1).
+
+Arrays support random access, meaning you can jump directly to any position without walking through earlier elements first. This makes arrays extremely fast for reading data when you already know the index you need.
+
+However, arrays have limitations. Once created, a standard array's size cannot change. Inserting or deleting an element in the middle of an array requires shifting all subsequent elements, which takes O(n) time in the worst case. Searching for a specific value in an unsorted array requires a linear search, checking each element one by one until a match is found or the array ends.
+
+Arrays are the building block for many other data structures, including ArrayLists, stacks, queues, and even hash tables. In Java, arrays are declared with a fixed type and length, such as int[] numbers = new int[10]. Understanding array behavior is essential before moving on to more advanced structures like linked lists and trees.

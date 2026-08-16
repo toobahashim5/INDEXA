@@ -1,0 +1,9 @@
+Linear Search Algorithm
+
+Linear search, also called sequential search, is the simplest searching algorithm. It checks every element in a collection one by one, in order, until it finds the target value or reaches the end of the collection.
+
+The algorithm starts at the first element and compares it with the target value. If they match, the search stops and returns the position. If not, it moves to the next element and repeats the comparison. If the end of the collection is reached without finding a match, the search returns a result indicating the value was not found.
+
+Linear search has a time complexity of O(n) in the worst case, since it may need to examine every single element. Its best case is O(1), when the target happens to be the very first element checked. Linear search does not require the data to be sorted, which makes it more flexible than binary search, but generally slower for large collections.
+
+Linear search is best suited for small collections or unsorted data where sorting first would not be worth the extra cost. In INDEXA, linear search style scanning is useful for operations that must check every element sequentially, such as scanning a small unsorted result list rather than searching indexed keyword data.

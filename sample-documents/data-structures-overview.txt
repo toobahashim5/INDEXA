@@ -1,0 +1,11 @@
+Data Structures Overview
+
+A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Choosing the right data structure for a task has a major impact on the performance of a program, since different structures are optimized for different kinds of operations.
+
+Linear data structures, such as arrays, linked lists, stacks, and queues, arrange elements in a sequence, one after another. Non-linear data structures, such as trees and graphs, organize elements in hierarchical or networked relationships rather than a simple sequence.
+
+Hash-based structures, such as a HashMap or a HashSet, store data using a hash function that converts a key into an index, allowing average O(1) time for insertion, lookup, and deletion. This makes hash-based structures ideal for tasks like INDEXA's inverted index, where fast keyword lookup is essential.
+
+A Trie, or prefix tree, is a specialized tree structure optimized for storing and searching strings, particularly useful for autocomplete and prefix matching. A heap is a tree-based structure that keeps either the smallest or largest element easily accessible at the root, commonly used to implement priority queues and ranking systems.
+
+Understanding the strengths and weaknesses of each data structure, including their time complexity for common operations, is essential for designing efficient software systems like a search engine.

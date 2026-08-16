@@ -1,0 +1,9 @@
+Linked Lists Explained
+
+A linked list is a linear data structure made up of nodes, where each node contains data and a reference, or pointer, to the next node in the sequence. Unlike arrays, linked list elements are not stored in contiguous memory, so nodes can be scattered anywhere in memory.
+
+There are several types of linked lists. A singly linked list has nodes pointing only to the next node. A doubly linked list has nodes pointing to both the next and the previous node, allowing traversal in both directions. A circular linked list connects the last node back to the first, forming a loop.
+
+The main advantage of a linked list over an array is efficient insertion and deletion. Adding or removing a node at the beginning takes O(1) time, since there is no need to shift other elements. However, accessing an element by index requires traversing the list from the head, which takes O(n) time in the worst case, unlike an array's constant-time random access.
+
+Linked lists are commonly used to implement other data structures such as stacks, queues, and hash table chaining for collision handling. They are also useful when the size of a collection is unpredictable and frequently changing.

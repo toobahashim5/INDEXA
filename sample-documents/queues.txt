@@ -1,0 +1,9 @@
+Queues: First In, First Out
+
+A queue is a linear data structure that follows the First In, First Out principle, abbreviated as FIFO. The first element added to the queue is the first one removed, similar to a line of people waiting for a bus: whoever arrives first gets served first.
+
+The two core operations are enqueue, which adds an element to the back of the queue, and dequeue, which removes an element from the front. Both operations run in O(1) time when the queue is implemented efficiently, typically with a linked list or a circular array.
+
+There are several variations of queues. A circular queue reuses empty space at the front of an array once elements are dequeued, avoiding wasted memory. A priority queue, unlike a regular queue, does not serve elements strictly in arrival order; instead, each element has a priority, and the highest-priority element is served first. A priority queue is often implemented internally using a heap, which is exactly the structure used in INDEXA's ranking system.
+
+Queues are widely used in scheduling tasks, managing requests in web servers, breadth-first search traversal in graphs and trees, and buffering data between processes that operate at different speeds.

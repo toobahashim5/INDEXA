@@ -1,0 +1,9 @@
+Trees: Hierarchical Data Structures
+
+A tree is a non-linear, hierarchical data structure made up of nodes connected by edges. Every tree has a single root node at the top, and each node can have zero or more child nodes. A node with no children is called a leaf.
+
+A binary tree restricts each node to at most two children, commonly referred to as the left child and the right child. A binary search tree, or BST, is a special kind of binary tree where every node's left subtree contains only smaller values, and every node's right subtree contains only larger values. This ordering property makes searching a binary search tree very efficient, running in O(log n) time on average, since each comparison eliminates roughly half of the remaining nodes.
+
+Trees support several traversal methods. In-order traversal visits the left subtree, then the current node, then the right subtree, and produces sorted output for a binary search tree. Pre-order traversal visits the current node first, then its subtrees. Post-order traversal visits both subtrees before the current node.
+
+Trees are used to represent hierarchical relationships such as file systems, organization charts, and HTML documents. They also form the basis of more advanced structures like heaps, tries, and balanced trees such as AVL trees and red-black trees.

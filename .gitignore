@@ -1,0 +1,17 @@
+# Maven build output
+target/
+
+# Local SQLite database (regenerated automatically on first run)
+indexa.db
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
