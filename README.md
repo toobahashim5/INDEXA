@@ -187,4 +187,7 @@ INDEXA/
 
 <p align="center">
   Built as a practical DSA portfolio project.
+  <br><br>
+  <strong>Author</strong><br>
+  <a href="https://github.com/toobahashim5">Tooba Hashim</a>
 </p>
